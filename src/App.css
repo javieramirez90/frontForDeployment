@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow-y: scroll;
+  
+}
+
+.Env {
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @import 'antd/dist/antd.css'; */
+
+.login-form {
+  max-width: 300px; 
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+ .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.theNav {
+  background-color: #FF9801;
+}
+
+.theFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* The only rule that matters */
+.video-background {
+  /*  making the video fullscreen  */
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+  }
+
+  .homeBuenaReceta {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .presentationBuenaReceta {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .presentationBuenaReceta div {
+    background-color: rgba(250, 250, 250, .35);
+    width: 40%;
+    margin: 5%;
+  }
+  
+  
+
+  .taka {
+    height: 100vh;
+    width: 100%;  
+    background-color: rgba(0, 0, 0, .5  )
+  }
+
+  .recipeCard {
+    margin: 2%;
+    width: 20%;
+    height: 60%;
+    border: 1px solid black;
+  }
+
+  .recipeCard img {
+    width: 100%;
+  }
+
+  .createRecipeComponent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+    width: 40%;
+    height: 80%;
+  }
+
+  .createRecipeForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    /* align-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+  } 
+
+  .createRecipeForm input {
+    width: 60%
+  }
+  
