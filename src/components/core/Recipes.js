@@ -10,7 +10,7 @@ export default class Recipes extends Component {
   }
 
   componentDidMount() {
-    let url = "http://localhost:3000/allRecipes"
+    let url = `${process.env.REACT_APP_API_URL}/allRecipes`
     let {recipes} = this.state
     axios.get(url)
       .then(res => {
